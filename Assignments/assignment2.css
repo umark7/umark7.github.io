@@ -1,0 +1,26 @@
+.ImageBorder
+  {
+      border-width: 1px;
+      border-color: Black;
+  }
+
+table {
+    width: 400px
+}
+
+td {
+    text-align: center;
+}
+
+table, th, td {
+    border:1px solid #000;
+}
+
+/*table data formatting*/
+th {
+    background-color: yellow;
+}
+td {
+    background-color: lightpink;
+}
+

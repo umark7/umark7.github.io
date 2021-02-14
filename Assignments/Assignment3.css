@@ -1,0 +1,60 @@
+.header {
+    color: blue;
+    background-color:red;
+    border: 3px dashed goldenrod;
+    margin: 5%;
+    text-align: center;
+    font-family: fantasy;
+    font-size:70px;
+}
+
+.description {
+    text-shadow: 5px 2px 2px rgb(147, 195, 207);
+    color: rgb(42, 120, 139);
+    font-size: 30px;
+    text-shadow: 5px 2px 2px rgb(147, 195, 207);
+}
+
+.mainBody {
+    margin: 5%;
+}
+
+.body1 {
+    float: right;
+    width: 400px; 
+}
+
+.button {
+    color: red;
+    background-color: lightblue;
+    font-weight: bolder;
+    border: solid 2px black;
+    border-radius: 20px;
+    float: left;
+    align-items: center;
+    margin-left: 12%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.button:hover{
+    background-color: red ;
+    color: black;
+}
+
+.img{
+    width: 300px;
+    height: 250px;
+    border: dotted 3px rgb(51, 156, 83);
+    
+}
+
+.list {
+    margin-left: -155px;
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px red;
+}
+
+
