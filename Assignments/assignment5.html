@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assignment5.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="mainDiv" id="mainPage">
+
+        <!-- front page stuff, before modal -->
+        <div class="foodDiv">
+            <img class="modalImg" src="gummies1.jpg" alt="gummiesimg">
+            <br>
+            <center> <h3 style="font-family:Segoe UI"> Here is an image of Gummy Bears</h3> </center>
+            <br>
+            <center> <a href="#modal1"> <button  class="modalLink"> Modal Link 1 </button> </a> </center>
+        </div>
+
+        <div class="foodDiv">
+            <img class="modalImg" src="cereal.jpg" alt="cerealimg">
+            <br>
+            <center> <h3 style="font-family:Segoe UI"> Here is an image of Cereal</h3> </center>
+            <br>
+            <center> <a href="#modal2"> <button class="modalLink"> Modal Link 2 </button>  </a> </center>
+        </div>
+
+
+    </div>
+
+
+    <!--Modal 1 stuff-->
+    <div id="modal1" class="modalWindowBackground">
+        <div class="messageBox1">
+            <div class="modalHeading1">
+                <h1 class="modalHeadingText"> Modal Window Example</h1>
+            </div>
+            <div class="modalBody1">
+                <p>This is a paragraph in the message window.
+                  This is a paragraph in the message window.
+                   This is a paragraph in the message window.
+                </p>
+
+            </div>
+
+            <!--Modal image and the button-->
+            <div class="modalBodyContentDiv">
+                <div id="modalContentBtn"> <a href="#mainPage"><button id="closeBtn"> Close </button> </a></div>
+                <div class="modalContent"> <img class="appleBack" src="apple.jpg" alt="applepic"></div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!--Modal 2 stuff-->
+    <div id="modal2" class="modalWindowBackground">
+        <div class="messageBox2">
+            <div class="modalHeading2">
+                <h1 class="modalHeadingText"> Modal Window Example </h1>
+                <a href="#mainPage"><button id="closeBtn2">X</button> </a> 
+            </div>
+            <div class="modalBody2">
+                <p>This is a paragraph in the message window.
+                  This is a paragraph in the message window.
+                   This is a paragraph in the message window.
+                </p>
+            </div>
+
+            <!--Modal image-->
+            <div class="modalBodyContentDiv">
+                <div class="modalContent"> <img class="appleBack" src="apple.jpg" alt="applepic"></div>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
