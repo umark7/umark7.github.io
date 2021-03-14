@@ -1,0 +1,364 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+@keyframes resize{
+    0%{transform: scale(1);}
+    50%{transform: scale(0.5);}
+    100%{transform: scale(1);}
+}
+.headingDivs{
+    height: 90%;
+    float: left;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+/*Top Stuff */
+#webHeading{
+    height: 200px;
+}
+#webpage-logo-image{
+    width: 100%;
+    animation: resize 5s infinite;
+   
+}
+#iconDiv{
+    width:15%;
+}
+#titleDiv{
+    width:50%;
+}
+#titleBottom{
+    font-size: large;
+    animation: swapTop 5s infinite;
+}
+
+#special-deals-div{
+    position: relative;
+    height:50px;
+    width:100%;
+    overflow: hidden;
+}
+.slide-group{
+    width: 300%;
+    height: 100%;
+    animation: slideshow 10s infinite;
+}
+#titleTop{
+    color:goldenrod;
+    font-family: cursive;
+    font-weight: bolder;
+    animation: swapBottom 5s infinite;
+}
+
+/*Top Stuff*/
+.slide{
+    float: left;
+    width:33.3%;
+    text-align: center;
+}
+.slide1{
+    background-color:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.slide2{
+    background-color:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.slide3{
+    background-color:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+
+#slide-and-jumbotron-container{
+    width:90%;
+    height:700px;
+    margin-left: 5%;
+}
+
+#two-image-descriptions{
+    width: 100%;
+    height: 300px;
+}
+.image-description-div{
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 15%;
+}
+
+@keyframes slideshow{
+    0%{margin-left: 0%;}
+    25%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    75%{margin-left: -100%;}
+    100%{margin-left: 0%;}
+}
+
+#jumbotron{
+    width: 100%;
+    height: 640px;
+    overflow: hidden;
+    background-image: url(https://i.imgur.com/O8ROTH4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#jumoTextDescription{
+    color: black;
+    margin: 3%;
+}
+#jumoTextDescription-div{
+    background-color: silver;
+    border: 2px solid white;
+    width:40%;
+    height:20%;
+    margin-top: 15%;
+    margin-left: 10%;
+    overflow: scroll;
+}
+
+
+body{
+    background-color: antiquewhite;
+}
+.itemListMainDiv{
+    width:100%;
+    height:800px;
+    overflow: auto;
+}
+
+
+#description-img-1{
+    background-image: url(https://i.imgur.com/IjO7kKu.jpg);
+    filter: contrast(50%);
+    background-size: cover;
+}
+#description-img-1-text-div{
+    border: 2px solid limegreen;
+    width: 70%;
+    height: 40%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#description-img-1-text{
+    color:white;
+    margin: 5%;
+}
+
+#description-img-2{
+    background: linear-gradient(goldenrod ,rgb(155, 201, 175));
+    filter: contrast(50%);
+    border: lightblue;
+}
+
+.buyButton{
+    color:black;
+    height:40px;
+    width:50%;
+    background: antiquewhite;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.buyButton:hover{
+    color: antiquewhite;
+    background: black;
+    border: 2px solid black;
+}
+.modalWindow{
+    position: fixed;
+    top:0px;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+    background-color: rgba(111,111,111,0.5);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.items{
+    width: 30%;
+    margin-left: 3%;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 80%;
+    float: left;
+
+}
+
+.itemImages{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.lotionBrandName{
+    font-weight: bold;
+    color: goldenrod;
+}
+
+
+.modalWindow:target{
+    opacity: 1;
+    pointer-events: all;
+}
+.msgblock{
+    position: relative;
+    width:40%;
+    height: 70%;
+    background-color: white;
+    margin:auto;
+    margin-top: 5%;
+    overflow: scroll;
+}
+
+.modalHeading{
+    width:80%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    background-color: white;
+}
+.modalHeading p{
+    margin-bottom: 1%;
+    background-color: white;
+}
+.modalHeading hr{
+    height:2px;
+    background-color: silver;
+    border: none;
+}
+.itemDescription{
+    height: 50%;
+    background-color: white;
+}
+
+
+.icon-div{
+    float:left;
+    width: 20%;
+    height:100%;
+    margin-left: 5%;
+}
+
+.social-media-img{
+    width: 80%;
+}
+#disclaimer{
+    margin-top: 8%;
+    color:white;
+}
+
+
+.xButton{
+    font-weight: bold;
+    float: right;
+    background-color: white;
+    color: black;
+    border: none;
+
+}
+.xButton:hover{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+}
+.descriptionDivs{
+    width: 40%;
+    height: 99%;
+    float: left;
+    margin-left: 5%;
+    background-color: white;
+}
+.descriptionDivs img{
+    width: 100%;
+    background-color: white;
+
+}
+.descriptionDivs p{
+    font-size: 10px;
+}
+
+.modalDescriotion{
+    height: 30%;
+    background-color: silver;
+}
+.modalDescriotion p{
+    text-align: center;
+    color: white;
+    
+}
+.modalDescriotion hr{
+    margin-left: 5%;
+    margin-right: 5%;
+    height:2px;
+    background-color: white;
+    border: none;
+}
+.continue-shoppingBtn{
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    margin-left: 5%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 30%;
+}
+.continue-shoppingBtn:hover{
+    background-color: white;
+    color: black;
+}
+
+.item-set-caption{
+    font-size: 12px;
+}
+
+
+.section-info{
+    color:white;
+    font-size: 12px;
+}
+#footer-dividing-hr{
+    height:2px;
+    background-color: white;
+    border: none;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#bottom-sec-text-div{
+    height: 35%;
+}
+.bottom-section-title{
+    color: white;
+    margin-right: 10%;
+    float:right;
+}
+#footer-bottom-section{
+    height:50%;
+}
+#social-media-icons{
+    height: 20%;
+    width: 20%;
+    float: right;
+    margin-right: 10%;
+}
+
+
+#footer-main-div{
+    height: 400px;
+    background-color: #2e2d2d;
+}
+#footer-top-section{
+    height:40%;
+}
+.footer-section{
+    width:20%;
+    height:100%;
+    margin-left: 4%;
+    float: left;
+}
+.section-title{
+    color:white;
+}
