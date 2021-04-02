@@ -1,0 +1,121 @@
+#heading-div{
+    height: 175px;
+}
+#heading-div h4{
+    margin-left: 1%;
+    font-family: SegoeUI;
+}
+
+html{
+    margin:0;
+    height:100%;
+}
+body{
+    
+    font-family: SegoeUI;
+    background: goldenrod;
+    color: white;
+}
+
+#play-button{
+    background-color: black;
+    border: 5px solid yellow;
+    border-radius: 10px;
+    height: 25%;
+    width: 200px;
+    font-weight: bolder;
+    font-size: 115%;
+    text-align: center;
+    color: white;
+    float: right;
+    margin-right: 42%;
+}
+
+#play-button:hover{
+    background-color: white;
+    border: 5px black;
+    color: goldenrod;
+}
+
+.title-size{
+    font-size: 300%;
+}
+
+#main-display-container{
+    height: 150px;
+    position: relative;
+}
+
+.horizontal-line-div{
+    display: flex;
+    float: left;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+
+#bottom-half-of-page-div{
+    height: 350px;
+}
+
+.inner-half-page-div{
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+#check-button{
+    background-color: black;
+    height: 50px;
+    width: 80px;
+    font-weight: bolder;
+    font-size: 115%;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+#display-box-text{
+    color: goldenrod;
+    font-size: 350%;
+    text-align: center;
+}
+
+#check-button:hover{
+    background-color: black;
+    border: 3px black;
+    color: goldenrod;
+}
+
+#input-number{
+    height: 140px;
+    width: 250px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 300%;
+    background-color: rgba(255, 222555, 255, .2) ;
+    border: none;
+    border-radius: 15px;
+    
+    /*box-shadow: 2px 3px 3px gray; */
+}
+
+
+.horizontal-line{
+    height:5px;
+    background-color: white;
+    border: none;
+    width: 100%;
+}
+
+#display-box{
+    position: absolute;
+    background-color: white;
+    margin-left: 45%;
+    float: left;
+    width: 175px;
+    height: 100%;
+}
