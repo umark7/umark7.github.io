@@ -8,9 +8,9 @@ https://umark7.github.io
 
 **Some Examples of the Sites I've Made:**
 
-Full Travel Website for the Country of Iceland: https://umark7.github.io/Projects/Project1/index.html
-E-Commerce Site: https://umark7.github.io/Projects/Project2/index.html
-Guess Number Game(still developing): https://umark7.github.io/Projects/Project3/index.html
-Survey Website using JS/HTML/CSS and SQL database(not hosted, functional on local env): https://umark7.github.io/Projects/Project4/templates/index.html
-Memrise Game: https://github.com/umark7/Memrise
+- Full Travel Website for the Country of Iceland: https://umark7.github.io/Projects/Project1/index.html
+- E-Commerce Site: https://umark7.github.io/Projects/Project2/index.html
+- Guess Number Game(still developing): https://umark7.github.io/Projects/Project3/index.html
+- Survey Website using JS/HTML/CSS and SQL database(not hosted, functional on local env): https://umark7.github.io/Projects/Project4/templates/index.html
+- Memrise Game: https://github.com/umark7/Memrise
 
