@@ -3,9 +3,11 @@ https://umark7.github.io
 
 **Short description of what I did at EverUp:**
 
--• I was selected for a full-stack Software Engineering program as one of 20 fellows out of 100+ applicants
--• Built many responsive Websites and Web Apps using JavaScript, SQL, HTML, and CSS
--• Developed and learned Python, AWS Fundamentals, SQL, NodeJS + best practices from design to development
+• I was selected for a full-stack Software Engineering program as one of 20 fellows out of 100+ applicants
+
+• Built many responsive Websites and Web Apps using JavaScript, SQL, HTML, and CSS
+
+• Developed and learned Python, AWS Fundamentals, SQL, NodeJS + best practices from design to development
 
 **Some Examples of the Sites I've Made:**
 
